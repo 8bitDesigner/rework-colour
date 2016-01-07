@@ -1,0 +1,21 @@
+{
+  "name": "rework-colour",
+  "version": "1.0.0",
+  "description": "Write CSS using the Queen's English",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "author": "Paul Sweeney <paul@8-bitdesign.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "rework": "^1.0.1",
+    "mocha": "^2.3.4"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
